@@ -1,0 +1,65 @@
+[0.316s] Invoking command in '/home/jungwon/Desktop/camera_calibration': PYTHONPATH=/home/jungwon/Desktop/camera_calibration/build/camera_calibration/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jungwon/Desktop/camera_calibration/install/camera_calibration/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/camera_calibration build --build-base /home/jungwon/Desktop/camera_calibration/build/camera_calibration/build install --record /home/jungwon/Desktop/camera_calibration/build/camera_calibration/install.log --single-version-externally-managed install_data
+[0.428s] running egg_info
+[0.428s] creating build/camera_calibration/camera_calibration.egg-info
+[0.428s] writing build/camera_calibration/camera_calibration.egg-info/PKG-INFO
+[0.429s] writing dependency_links to build/camera_calibration/camera_calibration.egg-info/dependency_links.txt
+[0.429s] writing entry points to build/camera_calibration/camera_calibration.egg-info/entry_points.txt
+[0.429s] writing requirements to build/camera_calibration/camera_calibration.egg-info/requires.txt
+[0.429s] writing top-level names to build/camera_calibration/camera_calibration.egg-info/top_level.txt
+[0.429s] writing manifest file 'build/camera_calibration/camera_calibration.egg-info/SOURCES.txt'
+[0.430s] reading manifest file 'build/camera_calibration/camera_calibration.egg-info/SOURCES.txt'
+[0.431s] writing manifest file 'build/camera_calibration/camera_calibration.egg-info/SOURCES.txt'
+[0.431s] running build
+[0.431s] running build_py
+[0.431s] creating /home/jungwon/Desktop/camera_calibration/build/camera_calibration/build
+[0.431s] creating /home/jungwon/Desktop/camera_calibration/build/camera_calibration/build/lib
+[0.431s] creating /home/jungwon/Desktop/camera_calibration/build/camera_calibration/build/lib/camera_calibration
+[0.431s] copying src/camera_calibration/camera_checker.py -> /home/jungwon/Desktop/camera_calibration/build/camera_calibration/build/lib/camera_calibration
+[0.431s] copying src/camera_calibration/camera_calibrator.py -> /home/jungwon/Desktop/camera_calibration/build/camera_calibration/build/lib/camera_calibration
+[0.431s] copying src/camera_calibration/__init__.py -> /home/jungwon/Desktop/camera_calibration/build/camera_calibration/build/lib/camera_calibration
+[0.431s] copying src/camera_calibration/stereo_calibrator.py -> /home/jungwon/Desktop/camera_calibration/build/camera_calibration/build/lib/camera_calibration
+[0.432s] copying src/camera_calibration/calibrator.py -> /home/jungwon/Desktop/camera_calibration/build/camera_calibration/build/lib/camera_calibration
+[0.432s] copying src/camera_calibration/mono_calibrator.py -> /home/jungwon/Desktop/camera_calibration/build/camera_calibration/build/lib/camera_calibration
+[0.432s] creating /home/jungwon/Desktop/camera_calibration/build/camera_calibration/build/lib/camera_calibration/nodes
+[0.432s] copying src/camera_calibration/nodes/__init__.py -> /home/jungwon/Desktop/camera_calibration/build/camera_calibration/build/lib/camera_calibration/nodes
+[0.432s] copying src/camera_calibration/nodes/cameracalibrator.py -> /home/jungwon/Desktop/camera_calibration/build/camera_calibration/build/lib/camera_calibration/nodes
+[0.432s] copying src/camera_calibration/nodes/tarfile_calibration.py -> /home/jungwon/Desktop/camera_calibration/build/camera_calibration/build/lib/camera_calibration/nodes
+[0.432s] copying src/camera_calibration/nodes/cameracheck.py -> /home/jungwon/Desktop/camera_calibration/build/camera_calibration/build/lib/camera_calibration/nodes
+[0.432s] running install
+[0.432s] running install_lib
+[0.433s] creating /home/jungwon/Desktop/camera_calibration/install/camera_calibration/lib/python3.10/site-packages/camera_calibration
+[0.433s] copying /home/jungwon/Desktop/camera_calibration/build/camera_calibration/build/lib/camera_calibration/camera_checker.py -> /home/jungwon/Desktop/camera_calibration/install/camera_calibration/lib/python3.10/site-packages/camera_calibration
+[0.433s] copying /home/jungwon/Desktop/camera_calibration/build/camera_calibration/build/lib/camera_calibration/camera_calibrator.py -> /home/jungwon/Desktop/camera_calibration/install/camera_calibration/lib/python3.10/site-packages/camera_calibration
+[0.433s] creating /home/jungwon/Desktop/camera_calibration/install/camera_calibration/lib/python3.10/site-packages/camera_calibration/nodes
+[0.433s] copying /home/jungwon/Desktop/camera_calibration/build/camera_calibration/build/lib/camera_calibration/nodes/__init__.py -> /home/jungwon/Desktop/camera_calibration/install/camera_calibration/lib/python3.10/site-packages/camera_calibration/nodes
+[0.433s] copying /home/jungwon/Desktop/camera_calibration/build/camera_calibration/build/lib/camera_calibration/nodes/cameracalibrator.py -> /home/jungwon/Desktop/camera_calibration/install/camera_calibration/lib/python3.10/site-packages/camera_calibration/nodes
+[0.433s] copying /home/jungwon/Desktop/camera_calibration/build/camera_calibration/build/lib/camera_calibration/nodes/tarfile_calibration.py -> /home/jungwon/Desktop/camera_calibration/install/camera_calibration/lib/python3.10/site-packages/camera_calibration/nodes
+[0.433s] copying /home/jungwon/Desktop/camera_calibration/build/camera_calibration/build/lib/camera_calibration/nodes/cameracheck.py -> /home/jungwon/Desktop/camera_calibration/install/camera_calibration/lib/python3.10/site-packages/camera_calibration/nodes
+[0.433s] copying /home/jungwon/Desktop/camera_calibration/build/camera_calibration/build/lib/camera_calibration/__init__.py -> /home/jungwon/Desktop/camera_calibration/install/camera_calibration/lib/python3.10/site-packages/camera_calibration
+[0.433s] copying /home/jungwon/Desktop/camera_calibration/build/camera_calibration/build/lib/camera_calibration/stereo_calibrator.py -> /home/jungwon/Desktop/camera_calibration/install/camera_calibration/lib/python3.10/site-packages/camera_calibration
+[0.433s] copying /home/jungwon/Desktop/camera_calibration/build/camera_calibration/build/lib/camera_calibration/calibrator.py -> /home/jungwon/Desktop/camera_calibration/install/camera_calibration/lib/python3.10/site-packages/camera_calibration
+[0.433s] copying /home/jungwon/Desktop/camera_calibration/build/camera_calibration/build/lib/camera_calibration/mono_calibrator.py -> /home/jungwon/Desktop/camera_calibration/install/camera_calibration/lib/python3.10/site-packages/camera_calibration
+[0.433s] byte-compiling /home/jungwon/Desktop/camera_calibration/install/camera_calibration/lib/python3.10/site-packages/camera_calibration/camera_checker.py to camera_checker.cpython-310.pyc
+[0.434s] byte-compiling /home/jungwon/Desktop/camera_calibration/install/camera_calibration/lib/python3.10/site-packages/camera_calibration/camera_calibrator.py to camera_calibrator.cpython-310.pyc
+[0.436s] byte-compiling /home/jungwon/Desktop/camera_calibration/install/camera_calibration/lib/python3.10/site-packages/camera_calibration/nodes/__init__.py to __init__.cpython-310.pyc
+[0.436s] byte-compiling /home/jungwon/Desktop/camera_calibration/install/camera_calibration/lib/python3.10/site-packages/camera_calibration/nodes/cameracalibrator.py to cameracalibrator.cpython-310.pyc
+[0.437s] byte-compiling /home/jungwon/Desktop/camera_calibration/install/camera_calibration/lib/python3.10/site-packages/camera_calibration/nodes/tarfile_calibration.py to tarfile_calibration.cpython-310.pyc
+[0.438s] byte-compiling /home/jungwon/Desktop/camera_calibration/install/camera_calibration/lib/python3.10/site-packages/camera_calibration/nodes/cameracheck.py to cameracheck.cpython-310.pyc
+[0.438s] byte-compiling /home/jungwon/Desktop/camera_calibration/install/camera_calibration/lib/python3.10/site-packages/camera_calibration/__init__.py to __init__.cpython-310.pyc
+[0.438s] byte-compiling /home/jungwon/Desktop/camera_calibration/install/camera_calibration/lib/python3.10/site-packages/camera_calibration/stereo_calibrator.py to stereo_calibrator.cpython-310.pyc
+[0.440s] byte-compiling /home/jungwon/Desktop/camera_calibration/install/camera_calibration/lib/python3.10/site-packages/camera_calibration/calibrator.py to calibrator.cpython-310.pyc
+[0.443s] byte-compiling /home/jungwon/Desktop/camera_calibration/install/camera_calibration/lib/python3.10/site-packages/camera_calibration/mono_calibrator.py to mono_calibrator.cpython-310.pyc
+[0.445s] running install_data
+[0.445s] creating /home/jungwon/Desktop/camera_calibration/install/camera_calibration/share/ament_index
+[0.445s] creating /home/jungwon/Desktop/camera_calibration/install/camera_calibration/share/ament_index/resource_index
+[0.445s] creating /home/jungwon/Desktop/camera_calibration/install/camera_calibration/share/ament_index/resource_index/packages
+[0.445s] copying resource/camera_calibration -> /home/jungwon/Desktop/camera_calibration/install/camera_calibration/share/ament_index/resource_index/packages
+[0.445s] copying package.xml -> /home/jungwon/Desktop/camera_calibration/install/camera_calibration/share/camera_calibration
+[0.445s] running install_egg_info
+[0.446s] Copying build/camera_calibration/camera_calibration.egg-info to /home/jungwon/Desktop/camera_calibration/install/camera_calibration/lib/python3.10/site-packages/camera_calibration-7.1.0-py3.10.egg-info
+[0.446s] running install_scripts
+[0.459s] Installing cameracalibrator script to /home/jungwon/Desktop/camera_calibration/install/camera_calibration/lib/camera_calibration
+[0.459s] Installing cameracheck script to /home/jungwon/Desktop/camera_calibration/install/camera_calibration/lib/camera_calibration
+[0.459s] Installing tarfile_calibration script to /home/jungwon/Desktop/camera_calibration/install/camera_calibration/lib/camera_calibration
+[0.459s] writing list of installed files to '/home/jungwon/Desktop/camera_calibration/build/camera_calibration/install.log'
+[0.473s] Invoked command in '/home/jungwon/Desktop/camera_calibration' returned '0': PYTHONPATH=/home/jungwon/Desktop/camera_calibration/build/camera_calibration/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jungwon/Desktop/camera_calibration/install/camera_calibration/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/camera_calibration build --build-base /home/jungwon/Desktop/camera_calibration/build/camera_calibration/build install --record /home/jungwon/Desktop/camera_calibration/build/camera_calibration/install.log --single-version-externally-managed install_data

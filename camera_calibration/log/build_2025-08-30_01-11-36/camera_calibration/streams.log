@@ -1,0 +1,27 @@
+[0.375s] Invoking command in '/home/jungwon/Desktop/camera_calibration': PYTHONPATH=/home/jungwon/Desktop/camera_calibration/build/camera_calibration/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jungwon/Desktop/camera_calibration/install/camera_calibration/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/camera_calibration build --build-base /home/jungwon/Desktop/camera_calibration/build/camera_calibration/build install --record /home/jungwon/Desktop/camera_calibration/build/camera_calibration/install.log --single-version-externally-managed install_data
+[0.553s] running egg_info
+[0.554s] writing build/camera_calibration/camera_calibration.egg-info/PKG-INFO
+[0.554s] writing dependency_links to build/camera_calibration/camera_calibration.egg-info/dependency_links.txt
+[0.554s] writing entry points to build/camera_calibration/camera_calibration.egg-info/entry_points.txt
+[0.554s] writing requirements to build/camera_calibration/camera_calibration.egg-info/requires.txt
+[0.554s] writing top-level names to build/camera_calibration/camera_calibration.egg-info/top_level.txt
+[0.557s] reading manifest file 'build/camera_calibration/camera_calibration.egg-info/SOURCES.txt'
+[0.563s] writing manifest file 'build/camera_calibration/camera_calibration.egg-info/SOURCES.txt'
+[0.563s] running build
+[0.563s] running build_py
+[0.563s] copying src/camera_calibration/nodes/image_publisher.py -> /home/jungwon/Desktop/camera_calibration/build/camera_calibration/build/lib/camera_calibration/nodes
+[0.564s] running install
+[0.564s] running install_lib
+[0.565s] copying /home/jungwon/Desktop/camera_calibration/build/camera_calibration/build/lib/camera_calibration/nodes/image_publisher.py -> /home/jungwon/Desktop/camera_calibration/install/camera_calibration/lib/python3.10/site-packages/camera_calibration/nodes
+[0.565s] byte-compiling /home/jungwon/Desktop/camera_calibration/install/camera_calibration/lib/python3.10/site-packages/camera_calibration/nodes/image_publisher.py to image_publisher.cpython-310.pyc
+[0.567s] running install_data
+[0.567s] running install_egg_info
+[0.569s] removing '/home/jungwon/Desktop/camera_calibration/install/camera_calibration/lib/python3.10/site-packages/camera_calibration-7.1.0-py3.10.egg-info' (and everything under it)
+[0.569s] Copying build/camera_calibration/camera_calibration.egg-info to /home/jungwon/Desktop/camera_calibration/install/camera_calibration/lib/python3.10/site-packages/camera_calibration-7.1.0-py3.10.egg-info
+[0.570s] running install_scripts
+[0.588s] Installing cameracalibrator script to /home/jungwon/Desktop/camera_calibration/install/camera_calibration/lib/camera_calibration
+[0.588s] Installing cameracheck script to /home/jungwon/Desktop/camera_calibration/install/camera_calibration/lib/camera_calibration
+[0.588s] Installing image_publisher script to /home/jungwon/Desktop/camera_calibration/install/camera_calibration/lib/camera_calibration
+[0.588s] Installing tarfile_calibration script to /home/jungwon/Desktop/camera_calibration/install/camera_calibration/lib/camera_calibration
+[0.588s] writing list of installed files to '/home/jungwon/Desktop/camera_calibration/build/camera_calibration/install.log'
+[0.604s] Invoked command in '/home/jungwon/Desktop/camera_calibration' returned '0': PYTHONPATH=/home/jungwon/Desktop/camera_calibration/build/camera_calibration/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jungwon/Desktop/camera_calibration/install/camera_calibration/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/camera_calibration build --build-base /home/jungwon/Desktop/camera_calibration/build/camera_calibration/build install --record /home/jungwon/Desktop/camera_calibration/build/camera_calibration/install.log --single-version-externally-managed install_data

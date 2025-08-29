@@ -1,0 +1,25 @@
+running egg_info
+writing build/camera_calibration/camera_calibration.egg-info/PKG-INFO
+writing dependency_links to build/camera_calibration/camera_calibration.egg-info/dependency_links.txt
+writing entry points to build/camera_calibration/camera_calibration.egg-info/entry_points.txt
+writing requirements to build/camera_calibration/camera_calibration.egg-info/requires.txt
+writing top-level names to build/camera_calibration/camera_calibration.egg-info/top_level.txt
+reading manifest file 'build/camera_calibration/camera_calibration.egg-info/SOURCES.txt'
+writing manifest file 'build/camera_calibration/camera_calibration.egg-info/SOURCES.txt'
+running build
+running build_py
+copying src/camera_calibration/nodes/image_publisher.py -> /home/jungwon/Desktop/camera_calibration/build/camera_calibration/build/lib/camera_calibration/nodes
+running install
+running install_lib
+copying /home/jungwon/Desktop/camera_calibration/build/camera_calibration/build/lib/camera_calibration/nodes/image_publisher.py -> /home/jungwon/Desktop/camera_calibration/install/camera_calibration/lib/python3.10/site-packages/camera_calibration/nodes
+byte-compiling /home/jungwon/Desktop/camera_calibration/install/camera_calibration/lib/python3.10/site-packages/camera_calibration/nodes/image_publisher.py to image_publisher.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/jungwon/Desktop/camera_calibration/install/camera_calibration/lib/python3.10/site-packages/camera_calibration-7.1.0-py3.10.egg-info' (and everything under it)
+Copying build/camera_calibration/camera_calibration.egg-info to /home/jungwon/Desktop/camera_calibration/install/camera_calibration/lib/python3.10/site-packages/camera_calibration-7.1.0-py3.10.egg-info
+running install_scripts
+Installing cameracalibrator script to /home/jungwon/Desktop/camera_calibration/install/camera_calibration/lib/camera_calibration
+Installing cameracheck script to /home/jungwon/Desktop/camera_calibration/install/camera_calibration/lib/camera_calibration
+Installing image_publisher script to /home/jungwon/Desktop/camera_calibration/install/camera_calibration/lib/camera_calibration
+Installing tarfile_calibration script to /home/jungwon/Desktop/camera_calibration/install/camera_calibration/lib/camera_calibration
+writing list of installed files to '/home/jungwon/Desktop/camera_calibration/build/camera_calibration/install.log'
